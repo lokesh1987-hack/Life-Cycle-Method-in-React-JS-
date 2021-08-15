@@ -6,7 +6,7 @@ function Unmounting() {
         {
             title:"Unmounting",
             defination:"The next phase in the lifecycle is when a component is removed from the DOM, or unmounting as React likes to call it.React has only one built-in method that gets called when a component is unmounted:",
-            imgsrc:"",
+            imgsrc:"https://raw.githubusercontent.com/lokesh1987-hack/Life-Cycle-Method-in-React-JS-/main/public/Images/Unmounting/Screenshot%20(150).png",
             link_url:"https://www.w3schools.com/react/react_lifecycle.asp"
         },
         {
