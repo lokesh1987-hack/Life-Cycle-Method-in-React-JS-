@@ -19,17 +19,26 @@ function Unmounting() {
     ]
 
     return (
-        <div>
-            {matter.map((value,index)=>{
-               return( 
-                   <div className="Card">
-                        <h1>{value.title}</h1>
-                        <p>{value.defination}</p>
-                        <img src={value.imgsrc} />
-                        <a target="_blank" href={value.link_url}>Try_it</a>
-                   </div>
-               )
-            })}
+        <div className="container">
+            <div className="row">
+                {matter.map((value) => {
+                    return (
+                        <div className="col-ms-4 col-lg-4 col-xl-12">
+                            <div className="card mt-5">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">{value.title}</h5>
+                                    <p class="card-text mb-3">{value.defination}</p>
+                                </div>
+                                <img src={value.imgsrc} class="card-img-top" alt="Please Check Your Network" />
+                                <div class="card-body">
+                                <a href={value.link_url} target="_blank" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+
         </div>
     )
 }

@@ -11,10 +11,12 @@ function App() {
   return (
     <div>
     <Router> 
-        <Header />
+    <Header />
+      <Switch>
         <Route exact path="/" component={Mounting} /> 
         <Route exact path="/updating" component={Updating} /> 
         <Route exact path="/unmounting" component={Unmounting} />
+      </Switch>
     </Router>
     </div>
   );

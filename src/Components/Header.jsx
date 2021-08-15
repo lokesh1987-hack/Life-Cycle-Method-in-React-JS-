@@ -6,7 +6,7 @@ function Header() {
         <div>
             <header style={{backgroundColor:"light-blue",margin:"10px", height:"300px"}}>
                 <h1>Component Life Cycle</h1>
-                <div className="Links"> 
+                <div className="links"> 
                 <Link to="/" id="mounting" >Mounting</Link>
                 <Link to="/updating" id="updatng">Updating</Link>
                 <Link to="/unmounting" id="unmounting">Unmounting</Link>

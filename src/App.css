@@ -14,8 +14,18 @@ header {
   color: white;
 }
 
-Link {
+.links {
   color: #61dafb;
-  margin-left: 50px;
-
+  display: flex;
+}
+.links a{
+  color: #61dafb;
+  margin: 40px;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+}
+a:visited{
+  color: white;
 }
