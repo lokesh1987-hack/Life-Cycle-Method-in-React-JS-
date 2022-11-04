@@ -1,7 +1,7 @@
 # Click on These Link TO see THis Project 
 <a href="https://life-cycle-method-in-react-js-.liladharharode.repl.co/">Live </a>
 
-<img src="https://github.com/lokesh1987-hack/Life-Cycle-Method-in-React-JS-/blob/main/Images/React_lefe_cycle.png />
+<img src="https://github.com/lokesh1987-hack/Life-Cycle-Method-in-React-JS-/blob/main/Images/React_lefe_cycle.png" ></img>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
